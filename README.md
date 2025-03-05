@@ -12,6 +12,8 @@ public class Jugador {
 
 ## ¿Qué representa esta clase? ¿Qué información contiene?
  Representa a un jugador de un equipo deportivo y contiene información básica sobre el jugador, como su nombre, edad, posición en el equipo, número de camiseta y el nombre del equipo al que pertenece
+ 
+ *** 
 
  ```java
 
