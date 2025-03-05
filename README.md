@@ -11,7 +11,7 @@ public class Jugador {
 
 
 ## ¿Qué representa esta clase? ¿Qué información contiene?
- representa a un jugador de un equipo deportivo y contiene información básica sobre el jugador, como su nombre, edad, posición en el equipo, número de camiseta y el nombre del equipo al que pertenece
+ Representa a un jugador de un equipo deportivo y contiene información básica sobre el jugador, como su nombre, edad, posición en el equipo, número de camiseta y el nombre del equipo al que pertenece
 
  ```java
 
@@ -29,13 +29,13 @@ Es importante inicializar los atributos de un objeto porque asegura que cada uno
 
 ## ¿Qué otros métodos podrían ser útiles para la clase Jugador?
 
-Otros metodos ultiles para la clase serian  get y set que nos permiten modificar y actualizar los datos ya colocados.
+Algunos métodos útiles para la clase Jugador podrían ser  un método cambiarPosicion para actualizar la posición del jugador,un método transferirEquipo para cambiar de equipo, un método compararEdad para comparar edades con otros jugadores.
 
 ## ¿Qué aprendiste al crear y utilizar objetos? ¿Cómo cambia el estado de un objeto cuando usamos métodos set?
 
 Al crear y utilizar objetos, aprendí que los objetos son instancias de una clase, y cada objeto tiene su propio conjunto de atributos y métodos y al estar trabajando con estos objetos, podemos almacenar y modificar datos de manera organizada.
 
-Cuando usamos un método set, estamos cambiando el valor de un atributo específico del objeto. Esto significa que el estado del objeto se actualiza con el nuevo valor nuevo.
+Cuando usamos un método set, cambiamos el valor de un atributo del objeto, lo que actualiza su estado y refleja el nuevo valor.
 
 
 
