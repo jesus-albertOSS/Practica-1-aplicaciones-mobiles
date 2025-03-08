@@ -11,6 +11,7 @@ public class Jugador {
 
 
 ## ¿Qué representa esta clase? ¿Qué información contiene?
+
  Representa a un jugador de un equipo deportivo y contiene información básica sobre el jugador, como su nombre, edad, posición en el equipo, número de camiseta y el nombre del equipo al que pertenece
  
  *** 
@@ -28,6 +29,13 @@ public Jugador(String nombre, int edad, String posicion, int numeroCamiseta, Str
 ## ¿Por qué es importante inicializar los atributos al crear un objeto? ¿Qué pasaría si no usáramos un constructor?
 
 Es importante inicializar los atributos de un objeto porque asegura que cada uno de ellos tenga un valor válido cuando el objeto se crea sin el constructor, tendriamos que ir agregando la información del jugador poco a poco después de crearlo.
+
+## ¿Porque no accedemos directamente a los atributos desde otras clases? ¿ Que ventaja tiene usar Getters y setters?
+
+Acceder directamente a los atributos puede romper el encapsulamiento y hacer que el código sea menos seguro y más difícil de mantener.
+
+Usar getters y setters permite validar datos, controlar el acceso y facilitar cambios internos sin afectar el uso externo, lo que mejora la seguridad y el mantenimiento del código.
+
 
 ## ¿Qué otros métodos podrían ser útiles para la clase Jugador?
 
